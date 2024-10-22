@@ -1,12 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
-import Nav from './nav';
-import { ContactPhone, ContactAddress, ContactAddress2, Instagram, Facebook } from './constants';
+import Nav from '../nav/nav';
+import { ContactPhone, ContactAddress, ContactAddress2, Instagram, Facebook } from '../constants';
+
+import styles from './header.module.scss';
 
 export default function Header() {
     return (
         <header>
-            <div className="topbar">
+            <div className={styles.topBar}>
                 <a href="/appointments">Book Now</a>
             </div>
             <a href="/">

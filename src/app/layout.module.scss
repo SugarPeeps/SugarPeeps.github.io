@@ -1,0 +1,6 @@
+@import "../common.scss";
+
+.body {
+  @extend .bg-primary-blue;
+  @extend .font-primary-black;
+}

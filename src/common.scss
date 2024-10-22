@@ -1,0 +1,30 @@
+@import 'variables';
+
+.font-primary-black {
+  font-family: $primary-font;
+  color: $primary-black;
+}
+
+.font-primary-red {
+  color: $primary-red;
+}
+
+.font-primary-white {
+  color: $primary-white;
+}
+
+.bg-primary-blue {
+  background-color: $primary-blue;
+}
+
+.bg-secondary-blue {
+  background-color: $secondary-blue;
+}
+
+.bg-primary-red {
+  background-color: $primary-red;
+}
+
+.bg-primary-black {
+  background-color: $primary-black;
+}
