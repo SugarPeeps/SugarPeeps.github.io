@@ -1,15 +1,25 @@
 @import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 
-.font-primary-black {
+.f-primary-black,
+.f-primary-black a,
+.font-primary-black a:visited
+{
   font-family: $primary-font;
   color: $primary-black;
 }
 
 .font-primary-red {
+  font-family: $primary-font;
+  color: $primary-red;
+}
+
+.font-hover-primary-red:hover {
   color: $primary-red;
 }
 
 .font-primary-white {
+  font-family: $primary-font;
   color: $primary-white;
 }
 
@@ -27,4 +37,12 @@
 
 .bg-primary-black {
   background-color: $primary-black;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+.f-italic {
+  font-style: italic;
 }
