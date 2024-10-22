@@ -1,7 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
-import Nav from '../nav/nav';
-import { ContactPhone, ContactAddress, ContactAddress2, Instagram, Facebook } from '../constants';
+import React from "react";
+import Image from "next/image";
+import Nav from "../components/nav";
+
+import Address from "../components/address";
+import Phone from "../components/phone";
+
+import { Instagram, Facebook } from "../constants";
 
 export default function Header() {
     return (
@@ -13,12 +17,9 @@ export default function Header() {
                 <a href="/">
                     <Image src="/images/pinup.png" alt="Sugar Peeps logo" width={240} height={126} />
                 </a>
-                <div className="location">
-                    <div className="address">{ContactAddress}</div>
-                    <p>{ContactAddress2}</p>
-                </div>
+                <Address />
                 <div className="contact">
-                    <div className="phone">{ContactPhone}</div>
+                    <Phone />
                     <p>Appointment Only</p>
                 </div>
                 <ul className="social">
