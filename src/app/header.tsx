@@ -14,16 +14,16 @@ export default function Header() {
                 <BookNow />
             </div>
 
-            <header className="flex flex-row justify-around p-6">
+            <header className="flex flex-col md:flex-row gap-10 justify-around p-6">
                 <Logo />
                 <Address />
                 <div className="contact">
                     <Phone />
                     <p>Appointment Only</p>
                 </div>
-                <ul className="social">
-                    <li><a href={Instagram} target="_blank">Instagram</a></li>
-                    <li><a href={Facebook} target="_blank">Facebook</a></li>
+                <ul className="flex flex-row md:flex-col gap-4 md:gap-0">
+                    <li><a href={Instagram} target="_blank" className="hover:text-red">Instagram</a></li>
+                    <li><a href={Facebook} target="_blank" className="hover:text-red">Facebook</a></li>
                 </ul>
             </header>
 
