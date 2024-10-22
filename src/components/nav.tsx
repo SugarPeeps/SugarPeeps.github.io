@@ -11,19 +11,23 @@ const paths = {
     "/policies": "Policies",
 }
 
-export default function Nav() {
+type NavProps = {
+    className?: string,
+    linkClassName?: string,
+    linkActiveClassName?: string,
+}
+
+export default function Nav({ className, linkClassName, linkActiveClassName }: NavProps) {
     return (
-        <nav>
-            <ul>
-            {Object.entries(paths).map(([path, label]) => {
-                return (
-                    <li key={label}>
-                    <a className={usePathname() === path ? "active" : ""} href={path}>{label}</a>
-                    </li>
-                )
-            })}
-            </ul>
-        </nav>
+        <ul className={className}>
+        {Object.entries(paths).map(([path, label]) => {
+            return (
+                <li key={label}>
+                    <a className={linkClassName + (usePathname() === path ? ` ${linkActiveClassName}` : "")} href={path}>{label}</a>
+                </li>
+            )
+        })}
+        </ul>
     )
 }
 

@@ -1,6 +1,10 @@
 import React from "react";
+import type { Viewport } from "next";
 
-import "./reset.css";
+export const viewport: Viewport = {
+    width: "device-width",
+    initialScale: 1.0,
+}
 
 import { Gabriela } from "next/font/google";
 const gabriela = Gabriela({ weight: "400", subsets: ["latin"] });
@@ -18,9 +22,13 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={`${gabriela.className} bg-blue`}>
+
             <Header/>
+
             {children}
+
             <Footer/>
+
         </body>
         </html>
     )

@@ -4,11 +4,11 @@ import { ContactAddress, ContactAddress2, ContactCity } from "../constants";
 
 export default function Address() {
     return (
-        <address>
+        <address className="not-italic">
             <a href={`https://google.com/maps/?q=${ContactAddress}`} target="_blank">
-                {ContactAddress}<br/>
-                {ContactAddress2}<br/>
-                {ContactCity}
+                <div className="font-bold">{ContactAddress}</div>
+                <div>{ContactAddress2}</div>
+                <div>{ContactCity}</div>
             </a>
         </address>
     )

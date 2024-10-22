@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import { Metadata } from 'next';
+import React from "react";
+import Image from "next/image";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Sugar - Sugar Peeps",

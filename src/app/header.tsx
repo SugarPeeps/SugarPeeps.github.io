@@ -1,22 +1,21 @@
 import React from "react";
-import Image from "next/image";
-import Nav from "../components/nav";
-
+import Logo from "../components/logo";
 import Address from "../components/address";
 import Phone from "../components/phone";
+import BookNow from "../components/booknow";
+import Nav from "../components/nav";
 
 import { Instagram, Facebook } from "../constants";
 
 export default function Header() {
     return (
         <div>
-            <div className="">
-                <a href="/appointments" className="">Book Now</a>
+            <div className="bg-black flex flex-row justify-around">
+                <BookNow />
             </div>
-            <div className="">
-                <a href="/">
-                    <Image src="/images/pinup.png" alt="Sugar Peeps logo" width={240} height={126} />
-                </a>
+
+            <header className="flex flex-row justify-around p-6">
+                <Logo />
                 <Address />
                 <div className="contact">
                     <Phone />
@@ -26,10 +25,14 @@ export default function Header() {
                     <li><a href={Instagram} target="_blank">Instagram</a></li>
                     <li><a href={Facebook} target="_blank">Facebook</a></li>
                 </ul>
-            </div>
-            <div className="">
-                <Nav />
-            </div>
+            </header>
+
+            <nav className="bg-blue-dark text-white uppercase p-6 md:px-20 sm:px-10">
+                <Nav className="flex flex-col md:flex-row justify-start gap-8"
+                    linkClassName="hover:text-red"
+                    linkActiveClassName="text-red"
+                    />
+            </nav>
         </div>
     )
 }
