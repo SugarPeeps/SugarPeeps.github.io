@@ -14,7 +14,7 @@ export default function Header() {
                 <BookNow />
             </div>
 
-            <header className="flex flex-col md:flex-row gap-10 justify-around items-center md:items-start p-6">
+            <header className="flex flex-col md:flex-row gap-10 justify-around items-center md:items-start p-6 container mx-auto">
                 <Logo />
                 <Address />
                 <div className="contact">
@@ -27,8 +27,8 @@ export default function Header() {
                 </ul>
             </header>
 
-            <nav className="bg-blue-dark py-10 md:py-6 px-10 md:px-20">
-                <Nav className="flex flex-col md:flex-row justify-start items-center md:items-start gap-8"
+            <nav className="bg-blue-dark py-10 md:py-6 px-10 md:px-20 mb-14">
+                <Nav className="flex flex-col md:flex-row justify-start items-center md:items-start gap-8 container mx-auto"
                     linkClassName="hover:text-red uppercase text-white"
                     linkActiveClassName="border-b-2 border-red"
                     />
