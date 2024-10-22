@@ -27,10 +27,10 @@ export default function Header() {
                 </ul>
             </header>
 
-            <nav className="bg-blue-dark text-white uppercase p-6 md:px-20 sm:px-10">
-                <Nav className="flex flex-col md:flex-row justify-start gap-8"
-                    linkClassName="hover:text-red"
-                    linkActiveClassName="text-red"
+            <nav className="bg-blue-dark py-10 md:py-6 px-10 md:px-20">
+                <Nav className="flex flex-col md:flex-row justify-start items-center md:items-start gap-8"
+                    linkClassName="hover:text-red uppercase text-white"
+                    linkActiveClassName="border-b-2 border-red"
                     />
             </nav>
         </div>

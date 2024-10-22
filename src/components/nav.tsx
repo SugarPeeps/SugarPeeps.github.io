@@ -19,11 +19,15 @@ type NavProps = {
 
 export default function Nav({ className, linkClassName, linkActiveClassName }: NavProps) {
     return (
-        <ul className={className}>
+        <ul className={className} role="navigation" aria-label="Main">
         {Object.entries(paths).map(([path, label]) => {
             return (
                 <li key={label}>
-                    <a className={linkClassName + (usePathname() === path ? ` ${linkActiveClassName}` : "")} href={path}>{label}</a>
+                {usePathname() === path ? (
+                    <a className={`${linkClassName} ${linkActiveClassName}`} href={path}>{label}</a>
+                ) : (
+                    <a className={linkClassName} href={path}>{label}</a>
+                )}
                 </li>
             )
         })}
