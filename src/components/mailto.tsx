@@ -7,7 +7,7 @@ type MailtoProps = {
 
 export default function Mailto({ children }: MailtoProps) {
     return (
-        <a href={`mailto:${ContactEmail}`}>
+        <a href={`mailto:${ContactEmail}`} className="hover:text-red">
             { children ? children : ContactEmail }
         </a>
     )

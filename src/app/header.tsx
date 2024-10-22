@@ -14,7 +14,7 @@ export default function Header() {
                 <BookNow />
             </div>
 
-            <header className="flex flex-col md:flex-row gap-10 justify-around p-6">
+            <header className="flex flex-col md:flex-row gap-10 justify-around items-center md:items-start p-6">
                 <Logo />
                 <Address />
                 <div className="contact">
