@@ -3,15 +3,13 @@ import Image from 'next/image';
 import Nav from '../nav/nav';
 import { ContactPhone, ContactAddress, ContactAddress2, Instagram, Facebook } from '../constants';
 
-import styles from './header.module.scss';
-
 export default function Header() {
     return (
         <div>
-            <div className={styles.topBar}>
-                <a href="/appointments" className={styles.bookNowButton}>Book Now</a>
+            <div className="">
+                <a href="/appointments" className="">Book Now</a>
             </div>
-            <div className={styles.header}>
+            <div className="">
                 <a href="/">
                     <Image src="/images/pinup.png" alt="Sugar Peeps logo" width={240} height={126} />
                 </a>
@@ -28,7 +26,7 @@ export default function Header() {
                     <li><a href={Facebook} target="_blank">Facebook</a></li>
                 </ul>
             </div>
-            <div className={styles.navBar}>
+            <div className="">
                 <Nav />
             </div>
         </div>

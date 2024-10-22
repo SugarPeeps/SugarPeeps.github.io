@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Header from '../header/header';
-import Footer from '../footer/footer';
+import Header from "../header/header";
+import Footer from "../footer/footer";
 
-import "../reset.css";
-import styles from './layout.module.scss';
+import { Gabriela } from "next/font/google";
+const gabriela = Gabriela({ weight: "400", subsets: ["latin"] });
+
+import 'tailwindcss/tailwind.css';
 
 export default function RootLayout({ 
     children 
@@ -13,7 +15,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body className={styles.body}>
+        <body className={`${gabriela.className} bg-blue`}>
             <Header/>
             {children}
             <Footer/>
