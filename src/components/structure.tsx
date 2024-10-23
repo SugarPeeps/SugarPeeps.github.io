@@ -20,7 +20,7 @@ export function ColumnContainer({ children }) {
 
 export function P({children, center = false}: {children: React.ReactNode, center?: boolean}) {
     return (
-        <p className={`mx-10 mb-8 leading-8 ${center && "text-center"}`}>{children}</p>
+        <p className={`mx-10 mb-8 leading-8 ${center ? "text-center" : "text-justify"}`}>{children}</p>
     )
 }
 

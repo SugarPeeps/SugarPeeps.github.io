@@ -1,8 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import { ContactEmail } from "../../constants";
-
-import { Container, H, P, Link, Email } from "../../components/structure";
+import { Container, P, Link, Email } from "../../components/structure";
 
 export const metadata: Metadata = {
     title: "Appointments - Sugar Peeps",

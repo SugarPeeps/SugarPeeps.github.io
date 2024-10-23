@@ -1,8 +1,7 @@
 import React from "react";
 import Nav from "../components/nav";
-import { Button, Logo, Address, Phone, Link } from "../components/structure";
-
-import { Instagram, Facebook } from "../constants";
+import { Button, Logo, Address, Phone } from "../components/structure";
+import { InstagramLink, FacebookLink } from "../components/social";
 
 export default function Header() {
     return (
@@ -11,17 +10,19 @@ export default function Header() {
                 <Button href="/appointments">Book Now</Button>
             </div>
 
-            <header className="flex flex-col md:flex-row gap-10 justify-around items-center md:items-start p-6 container mx-auto">
-                <Logo />
-                <Address />
-                <div className="contact">
-                    <Phone />
-                    <p>Appointment Only</p>
+            <header className="bg-blue flex flex-col items-center">
+                <div className="flex flex-col container md:flex-row gap-10 justify-between items-center md:items-start py-10">
+                    <Logo />
+                    <Address />
+                    <div className="contact">
+                        <Phone />
+                        <p>Appointment Only</p>
+                    </div>
+                    <ul className="flex flex-row gap-2">
+                        <li><InstagramLink/></li>
+                        <li><FacebookLink/></li>
+                    </ul>
                 </div>
-                <ul className="flex flex-row md:flex-col gap-4 md:gap-0">
-                    <li><Link url={Instagram} newWindow noColor>Instagram</Link></li>
-                    <li><Link url={Facebook} newWindow noColor>Facebook</Link></li>
-                </ul>
             </header>
 
             <nav className="bg-blue-dark py-10 md:py-6 px-10 md:px-20 mb-14">

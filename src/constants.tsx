@@ -3,5 +3,5 @@
  export const ContactAddress = "1417 NW 54th St - Studio 432";
  export const ContactAddress2 = "Inside StudioWorks Ballard";
  export const ContactCity = "Seattle, WA";
- export const Instagram = "https://www.instagram.com/sugarpeepssugaring";
- export const Facebook = "https://www.facebook.com/sugarpeepsbygen";
+ export const InstagramUrl = "https://www.instagram.com/sugarpeepssugaring";
+ export const FacebookUrl = "https://www.facebook.com/sugarpeepsbygen";
