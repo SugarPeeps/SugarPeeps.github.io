@@ -2,10 +2,7 @@
 
 import React from "react";
 import Nav from "../components/nav";
-import MailTo from "../components/mailto";
-import Phone from "../components/phone";
-import Address from "../components/address";
-
+import { Email, Phone, Address } from "../components/structure";
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -16,7 +13,7 @@ export default function Footer() {
                 <div>
                     <Nav className="py-10" linkClassName="hover:text-red"/>
                     <ul className="flex flex-col gap-6">
-                        <li><MailTo/></li>
+                        <li><Email noColor/></li>
                         <li><Phone/></li>
                         <li><Address/></li>
                     </ul>
