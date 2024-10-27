@@ -19,8 +19,10 @@ export function ColumnContainer({ children }) {
 }
 
 export function P({children, center = false}: {children: React.ReactNode, center?: boolean}) {
+    const baseClass = "mx-10 mb-8 leading-8";
+    const alignment = center ? "text-center" : "text-justify";
     return (
-        <p className={`mx-10 mb-8 leading-8 ${center ? "text-center" : "text-justify"}`}>{children}</p>
+        <p className={baseClass + " " + alignment}>{children}</p>
     )
 }
 
@@ -71,9 +73,12 @@ export function Button({children, onClick, href}: {children: React.ReactNode, on
 }
 
 export function Address() {
+    const baseUrl = "https://google.com/maps/?q=";
+    const addressQuery = `${ContactAddress}, ${ContactCity}`;
+
     return (
         <address className="not-italic">
-            <a href={`https://google.com/maps/?q=${ContactAddress}`} target="_blank" className="hover:text-red">
+            <a href={baseUrl + addressQuery} target="_blank" className="hover:text-red">
                 <div className="font-bold">{ContactAddress}</div>
                 <div>{ContactAddress2}</div>
                 <div>{ContactCity}</div>
