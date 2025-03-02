@@ -1,6 +1,7 @@
 import React from 'react';
 import { ContactAddress, ContactAddress2, ContactCity, ContactEmail, ContactPhone } from "../constants";
 import Image from "next/image";
+import NextLink from 'next/link';
 
 export function Container({ children }) {
     return (
@@ -89,9 +90,9 @@ export function Address() {
 
 export function Logo() {
     return (
-        <a href="/">
+			<NextLink href="/">
             <Image src="/images/pinup.png" alt="Sugar Peeps logo" width={240} height={126} priority={true} />
-        </a>
+			</NextLink>
     )
 }
 
