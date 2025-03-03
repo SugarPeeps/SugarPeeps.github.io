@@ -14,11 +14,20 @@ export default function SquareAppointments() {
     containerRef.current.appendChild(squareWidget);
   }, [])
 
+  // Similarly, style changes have to take place after the frame has been injected into the DOM
+  // by the Square script
+  const resizeFrame = () => {
+    const squareFrame = document.querySelector("#square-appointments-widget iframe");
+    squareFrame.style.height = "1000px";
+    squareFrame.style.outline = "none";
+  }
+
   return (
     <div ref={containerRef} id="square-appointments-widget">
       <Script
         id="square-appointments-widget-script"
         src={"https://square.site/appointments/buyer/widget/55ac5595-a22b-46ef-bdea-3f552c1fd2c3/8X0P4KQ71MNP9.js"}
+        onLoad={resizeFrame}
         async
       />
     </div>
