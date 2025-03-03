@@ -14,7 +14,7 @@ export default function Instafeed() {
   return (
     <div id="instafeed">
       <Script
-        src="https://embedsocial.com/js/iframe.js"
+        src={"https://embedsocial.com/js/iframe.js"}
         strategy="lazyOnload"
         onLoad={() => {
           attachResizeScript();

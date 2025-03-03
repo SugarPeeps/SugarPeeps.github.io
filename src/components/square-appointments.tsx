@@ -18,7 +18,7 @@ export default function SquareAppointments() {
     <div ref={containerRef} id="square-appointments-widget">
       <Script
         id="square-appointments-widget-script"
-        src="https://square.site/appointments/buyer/widget/55ac5595-a22b-46ef-bdea-3f552c1fd2c3/8X0P4KQ71MNP9.js"
+        src={"https://square.site/appointments/buyer/widget/55ac5595-a22b-46ef-bdea-3f552c1fd2c3/8X0P4KQ71MNP9.js"}
         async
       />
     </div>
