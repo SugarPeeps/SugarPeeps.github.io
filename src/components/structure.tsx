@@ -13,7 +13,7 @@ export function Container({ styleOverride = "", children }) {
 
 export function ColumnContainer({ children }) {
   return (
-    <div className="flex flex-col xl:flex-row container mx-auto">
+    <div className="flex flex-col xl:flex-row container mx-auto py-14">
       {children}
     </div>
   )
@@ -100,7 +100,7 @@ export function Logo() {
   )
 }
 
-export function Email({ children, ...props }: { children?: React.ReactNode, [key: string]: any }) {
+export function Email({ children, ...props }: { children?: React.ReactNode, [_key: string]: any }) {
   return (
     <Link url={`mailto:${ContactEmail}`} {...props}>
       {children ? children : ContactEmail}
