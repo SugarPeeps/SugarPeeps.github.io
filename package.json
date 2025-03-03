@@ -1,0 +1,32 @@
+{
+  "name": "sugarpeeps.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "contributors": [
+    "Genevieve DuPuy <sugarpeepssugaring@gmail.com> (https://sugarpeeps.com)",
+    "Tim Heuett <info@timheuett.com> (https://timheuett.com)"
+  ],
+  "license": "GPL-3.0-or-later",
+  "description": "",
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-feather": "^2.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.8",
+    "@types/react": "^18.3.11",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "sass": "^1.80.3",
+    "tailwindcss": "^3.4.14",
+    "typescript": "5.6.3"
+  }
+}
