@@ -5,7 +5,7 @@ import NextLink from "next/link";
 
 export function Container({ styleOverride = "", children }) {
   return (
-    <div className={ "container mx-auto py-14 " + styleOverride }>
+    <div className={"container mx-auto py-14 " + styleOverride}>
       {children}
     </div>
   )
