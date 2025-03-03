@@ -8,7 +8,7 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-black text-white mt-20">
+        <footer className="bg-black text-white">
             <div className="container mx-auto px-10 md:px-40 pb-20 pt-10">
                 <div>
                     <Nav className="py-10" linkClassName="hover:text-red"/>
