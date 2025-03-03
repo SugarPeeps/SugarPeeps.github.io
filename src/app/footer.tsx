@@ -3,6 +3,7 @@
 import React from "react";
 import Nav from "../components/nav";
 import { Email, Phone, Address } from "../components/structure";
+import MapWidget from "../components/map-widget";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -18,7 +19,9 @@ export default function Footer() {
             <li><Address/></li>
           </ul>
         </div>
-        {/* TODO: google maps embed */}
+        <div className="mt-14">
+          <MapWidget/>
+        </div>
       </div>
       <div className="px-10 py-10 border-t-2 border-red">
         <div className="container mx-auto flex justify-end">
