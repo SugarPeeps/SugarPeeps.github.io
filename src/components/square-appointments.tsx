@@ -17,7 +17,7 @@ export default function SquareAppointments() {
   // Similarly, style changes have to take place after the frame has been injected into the DOM
   // by the Square script
   const resizeFrame = () => {
-    const squareFrame = document.querySelector("#square-appointments-widget iframe");
+    const squareFrame = document.querySelector<HTMLElement>("#square-appointments-widget iframe");
     squareFrame.style.height = "1000px";
     squareFrame.style.outline = "none";
   }
