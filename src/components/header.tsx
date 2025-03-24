@@ -1,38 +1,62 @@
+"use client";
+
 import React from "react";
-import Nav from "@/components/nav";
 import Logo from "./logo";
 import { Address, Phone } from "../components/structure";
 import { InstagramLink, FacebookLink } from "../components/social";
+import { NavLinks } from "@/constants";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <div>
-      <header className="bg-blue flex flex-col items-center">
-        <div className="flex flex-col container md:flex-row gap-10 justify-between items-center md:items-start py-10">
-          <Logo />
-          <Address />
-          <div className="contact">
-            <Phone />
-            <p>Appointment Only</p>
-          </div>
-          <ul className="flex flex-row gap-2">
-            <li>
-              <InstagramLink />
-            </li>
-            <li>
-              <FacebookLink />
-            </li>
-          </ul>
-        </div>
-      </header>
-
-      <nav className="bg-blue-dark py-10 md:py-6 px-10 md:px-20">
-        <Nav
-          className="flex flex-col md:flex-row justify-start items-center md:items-start gap-8 container mx-auto"
-          linkClassName="hover:text-red uppercase text-white"
-          linkActiveClassName="border-b-2 border-red"
-        />
-      </nav>
+      <HeaderContents />
+      <Nav />
     </div>
+  );
+}
+
+function Nav(): JSX.Element {
+  const activePath = usePathname();
+
+  return (
+    <nav className="bg-blue-dark py-6 md:py-4 px-10 md:px-20">
+      <ul className="flex flex-col md:flex-row justify-start items-center md:items-start gap-6 md:gap-10 container mx-auto">
+        {NavLinks.map(({ label, path }) => (
+          <li key={path}>
+            <Link
+              href={path}
+              className={`hover:text-red uppercase text-white text-lg ${activePath === path ? "border-b-2 border-red" : ""}`}
+            >
+              {label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+}
+
+function HeaderContents(): JSX.Element {
+  return (
+    <header className="bg-blue flex flex-col items-center">
+      <div className="flex flex-col container md:flex-row gap-10 justify-between items-center md:items-start py-10">
+        <Logo />
+        <Address />
+        <div className="contact">
+          <Phone />
+          <p>Appointment Only</p>
+        </div>
+        <ul className="flex flex-row gap-2">
+          <li>
+            <InstagramLink />
+          </li>
+          <li>
+            <FacebookLink />
+          </li>
+        </ul>
+      </div>
+    </header>
   );
 }
