@@ -7,14 +7,15 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="columns">
-      <img
-        src="/images/mspeeps.jpg"
-        alt="Ms. Peeps"
-        width={400}
-        height={400}
-        className="mx-auto w-96"
-      />
+    <main>
+      <div className="flex flex-col gap-8 place-items-center">
+        <img
+          src="/images/mspeeps.jpg"
+          alt="Ms. Peeps"
+          width={400}
+          height={400}
+        />
+      </div>
       <div>
         <h2>Who is this Ms. Peeps anyway?</h2>
         <p>

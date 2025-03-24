@@ -7,21 +7,19 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="columns">
-      <div className="flex flex-col gap-8 place-items-center">
+    <main>
+      <div className="flex lg:flex-row flex-col gap-8 place-items-center justify-around">
         <img
           src="/images/mspeeps.jpg"
           alt="Ms Peeps"
           width={400}
           height={400}
-          className="w-96"
         />
         <img
           src="/images/sugaring.jpg"
           alt="Sugaring"
           width={400}
           height={400}
-          className="w-96"
         />
       </div>
       <div>
