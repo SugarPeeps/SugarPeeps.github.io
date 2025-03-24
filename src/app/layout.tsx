@@ -4,7 +4,7 @@ import type { Viewport } from "next";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1.0,
-}
+};
 
 import { Gabriela } from "next/font/google";
 
@@ -12,26 +12,23 @@ const gabriela = Gabriela({ weight: "400", subsets: ["latin"] });
 
 import "tailwindcss/tailwind.css";
 
-import Header from "./header";
-import Footer from "./footer";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export default function RootLayout({
-                                     children,
-                                   }: {
-  children: React.ReactNode
+  children,
+}: {
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-    <body className={`${gabriela.className} bg-blue`}>
+      <body className={`${gabriela.className} bg-blue`}>
+        <Header />
 
-    <Header/>
+        {children}
 
-    {children}
-
-    <Footer/>
-
-    </body>
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }
-
