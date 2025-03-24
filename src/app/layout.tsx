@@ -1,28 +1,23 @@
 import React from "react";
 import type { Viewport } from "next";
+import "@/app/global.css";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { Gabriela } from "next/font/google";
+import BookNowHeader from "@/components/book-now-header";
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1.0,
 };
 
-import { Gabriela } from "next/font/google";
-
 const gabriela = Gabriela({ weight: "400", subsets: ["latin"] });
 
-import "tailwindcss/tailwind.css";
-
-import Header from "@/components/header";
-import Footer from "@/components/footer";
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: JSX.Element }) {
   return (
     <html lang="en">
       <body className={`${gabriela.className} bg-blue`}>
+        <BookNowHeader />
         <Header />
 
         {children}

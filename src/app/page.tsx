@@ -1,6 +1,5 @@
 import React from "react";
 import { Metadata } from "next";
-import Instafeed from "@/components/instafeed";
 import { Slide, Carousel } from "@/components/carousel";
 import { Container, P, H } from "@/components/structure";
 
@@ -42,7 +41,6 @@ export default function Page() {
         to work every day as well and is always available for emotional puppy
         support. <em>Welcome to the sweet side of self care!</em>
       </P>
-      <Instafeed />
     </Container>
   );
 }

@@ -6,10 +6,6 @@ import { InstagramLink, FacebookLink } from "../components/social";
 export default function Header() {
   return (
     <div>
-      <div className="bg-black flex flex-row justify-around">
-        <Button href="/appointments">Book Now</Button>
-      </div>
-
       <header className="bg-blue flex flex-col items-center">
         <div className="flex flex-col container md:flex-row gap-10 justify-between items-center md:items-start py-10">
           <Logo />
