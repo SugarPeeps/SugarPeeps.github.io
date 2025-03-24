@@ -11,7 +11,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-black text-white">
-      <div className="container mx-auto px-10 md:px-40 pb-20 pt-6 md:pt-10">
+      <div className="container mx-auto px-10 pb-20 pt-6 md:pt-10">
         <div>
           <ul className="py-6">
             {NavLinks.map(({ label, path }) => (

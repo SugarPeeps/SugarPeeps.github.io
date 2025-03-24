@@ -15,13 +15,13 @@ type LinkProps = {
   noColor?: boolean;
 };
 
-export function Address() {
-  const baseUrl = "https://google.com/maps/?q=";
-  const addressQuery = `${ContactAddress}, ${ContactCity}`;
+export function Address(props: React.ComponentProps<"address">): JSX.Element {
+  const url = `https://google.com/maps/?q=${ContactAddress}, ${ContactCity}`;
+  const { className, ...otherProps } = props;
 
   return (
-    <address className="not-italic">
-      <a href={baseUrl + addressQuery} target="_blank">
+    <address className={`${className} not-italic`} {...otherProps}>
+      <a href={url} target="_blank">
         <div className="font-bold">{ContactAddress}</div>
         <div>{ContactAddress2}</div>
         <div>{ContactCity}</div>

@@ -11,7 +11,7 @@
     }
 
     p {
-      @apply mx-10 mb-8 leading-8 text-lg;
+      @apply mx-10 mb-4 leading-8 text-lg;
     }
 
     a {
@@ -23,7 +23,7 @@
     }
 
     li {
-      @apply mb-4 leading-8 text-lg;
+      @apply mb-4 leading-8 text-lg pl-4;
     }
   }
 
