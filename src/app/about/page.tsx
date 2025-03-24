@@ -1,5 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Us - Sugar Peeps",
@@ -37,9 +38,10 @@ export default function Page() {
           attentive hands.
         </p>
         <p>
-          Scheduling is easy! Simply click the Book Now button above and select
-          your desired sugar services. You&apos;ll be supporting a small woman
-          owned business, our local economy, AND choosing a natural hair removal
+          Scheduling is easy! Simply click{" "}
+          <Link href="/appointments">Book Now</Link> and select your desired
+          sugar services. You&apos;ll be supporting a small woman owned
+          business, our local economy, AND choosing a natural hair removal
           method that is sweet to the environment and your skin. Bonus: Dottie
           Grace, Genevieve&apos;s gorgeous little shop pup familiar happily
           comes to work every day as well and is always available for emotional
