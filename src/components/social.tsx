@@ -5,12 +5,16 @@ import { Link } from "./structure";
 
 export function FacebookLink() {
   return (
-    <Link url={FacebookUrl} newWindow noColor><Facebook/></Link>
-  )
+    <Link url={FacebookUrl} newWindow noColor>
+      <Facebook />
+    </Link>
+  );
 }
 
 export function InstagramLink() {
   return (
-    <Link url={InstagramUrl} newWindow noColor><Instagram/></Link>
-  )
+    <Link url={InstagramUrl} newWindow noColor>
+      <Instagram />
+    </Link>
+  );
 }

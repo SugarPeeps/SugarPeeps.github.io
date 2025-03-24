@@ -1,7 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
 import { Slide, Carousel } from "@/components/carousel";
-import { Container, P, H } from "@/components/structure";
 
 export const metadata: Metadata = {
   title: "Sugar Peeps – Be sweet to your skin!",
@@ -17,11 +16,11 @@ const slides: Slide[] = [
 
 export default function Page() {
   return (
-    <Container>
+    <main>
       <Carousel slides={slides} />
-      <H>Hello, hellooo!</H>
-      <P>We are so glad you&apos;re here.</P>
-      <P>
+      <h2>Hello, hellooo!</h2>
+      <p>We are so glad you&apos;re here.</p>
+      <p>
         Sugar Peeps is a space that welcomes and celebrates{" "}
         <strong>EVERY BODY</strong>. Genevieve believes strongly that sugaring
         and all personal services should be affirming and positive experiences.
@@ -31,8 +30,8 @@ export default function Page() {
         ethical, quality, caring services with a focus on natural, eco-friendly
         products. When you become a Sugar Peeps&apos; peep rest assured you will
         be in skilled, caring, attentive hands.
-      </P>
-      <P>
+      </p>
+      <p>
         Scheduling is easy! Simply click the Book Now button above and select
         your desired sugar services. You&apos;ll be supporting a small woman
         owned business, our local economy, AND choosing a natural hair removal
@@ -40,7 +39,7 @@ export default function Page() {
         Grace, Genevieve&apos;s gorgeous little shop pup familiar happily comes
         to work every day as well and is always available for emotional puppy
         support. <em>Welcome to the sweet side of self care!</em>
-      </P>
-    </Container>
+      </p>
+    </main>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "@/components/nav";
-import { Button, Logo, Address, Phone } from "../components/structure";
+import Logo from "./logo";
+import { Address, Phone } from "../components/structure";
 import { InstagramLink, FacebookLink } from "../components/social";
 
 export default function Header() {

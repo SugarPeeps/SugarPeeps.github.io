@@ -3,4 +3,27 @@
 @tailwind utilities;
 
 @layer base {
+  main {
+    @apply container mx-auto py-14;
+
+    &.columns {
+      @apply flex flex-col xl:flex-row;
+    }
+
+    h2 {
+      @apply text-xl mx-10 mt-10 pb-8;
+    }
+
+    p {
+      @apply mx-10 mb-8 leading-8;
+    }
+
+    ul {
+      @apply ml-4 px-10 list-disc;
+
+      li {
+        @apply mb-4 leading-8;
+      }
+    }
+  }
 }
