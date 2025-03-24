@@ -3,10 +3,10 @@
 import React from "react";
 import Logo from "./logo";
 import { Address, Phone } from "../components/structure";
-import { InstagramLink, FacebookLink } from "../components/social";
-import { NavLinks } from "@/constants";
+import { FacebookUrl, InstagramUrl, NavLinks } from "@/constants";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { Facebook, Instagram } from "react-feather";
 
 export default function Header() {
   return (
@@ -50,10 +50,14 @@ function HeaderContents(): JSX.Element {
         </div>
         <ul className="flex flex-row gap-2">
           <li>
-            <InstagramLink />
+            <Link href={InstagramUrl} target="_blank">
+              <Instagram />
+            </Link>
           </li>
           <li>
-            <FacebookLink />
+            <Link href={FacebookUrl} target="_blank">
+              <Facebook />
+            </Link>
           </li>
         </ul>
       </div>

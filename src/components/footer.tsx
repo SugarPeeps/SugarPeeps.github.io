@@ -24,7 +24,7 @@ export default function Footer() {
           </ul>
           <ul className="flex flex-col gap-6">
             <li>
-              <Email noColor />
+              <Email />
             </li>
             <li>
               <Phone />

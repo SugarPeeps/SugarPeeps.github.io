@@ -1,7 +1,8 @@
 import React from "react";
 import { Metadata } from "next";
-import { Link, Email } from "@/components/structure";
+import { Email } from "@/components/structure";
 import SquareAppointments from "@/components/square-appointments";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Appointments - Sugar Peeps",
@@ -21,8 +22,8 @@ export default function Page() {
       </p>
       <p>
         <Link
-          url="https://squareup.com/gift/15ZMSAP6R3TMB/order"
-          newWindow={true}
+          href="https://squareup.com/gift/15ZMSAP6R3TMB/order"
+          target="_blank"
         >
           Purchase a gift card
         </Link>
