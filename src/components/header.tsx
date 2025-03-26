@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Logo from "./logo";
 import { Address, Phone } from "../components/structure";
