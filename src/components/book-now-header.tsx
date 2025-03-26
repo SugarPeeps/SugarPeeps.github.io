@@ -8,7 +8,7 @@ export default function BookNowHeader(props: React.ComponentProps<"div">) {
   return (
     <div className={className} {...otherProps}>
       <div className="py-2 px-6 bg-red">
-        <a className="text-white" href="/appointments">
+        <a className="text-white" href="/appointments#scheduling">
           Book Now
         </a>
       </div>

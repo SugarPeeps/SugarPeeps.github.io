@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="bg-white">
+    <main className="bg-white" id="scheduling">
       <p>
         Loyalty maintenance pricing discount of 15% will be applied at the time
         of your service when your last sugar was received at Sugar Peeps 6 weeks
