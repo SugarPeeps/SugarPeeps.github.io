@@ -30,8 +30,13 @@ export function Address(props: React.ComponentProps<"address">): JSX.Element {
   );
 }
 
-export function Email() {
-  return <Link href={`mailto:${ContactEmail}`}>{ContactEmail}</Link>;
+export function Email({
+  children,
+}: {
+  children?: React.ReactNode;
+}): JSX.Element {
+  const content = children || ContactEmail;
+  return <Link href={`mailto:${ContactEmail}`}>{content}</Link>;
 }
 
 export function Phone() {
