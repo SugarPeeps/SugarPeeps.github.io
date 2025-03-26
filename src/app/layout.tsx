@@ -17,12 +17,12 @@ const gabriela = Gabriela({ weight: "400", subsets: ["latin"] });
 export default function RootLayout({ children }: { children: JSX.Element }) {
   return (
     <html lang="en">
-      <body className={`${gabriela.className} bg-blue`}>
+      <body className={`${gabriela.className} bg-black`}>
         <BookNowHeader className="sticky top-0 z-50" />
         <Header />
         <Nav />
 
-        {children}
+        <div className="bg-blue">{children}</div>
 
         <Footer />
       </body>
