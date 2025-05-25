@@ -10,6 +10,7 @@ import Nav from "@/components/nav";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1.0,
+  userScalable: false,
 };
 
 const gabriela = Gabriela({ weight: "400", subsets: ["latin"] });
