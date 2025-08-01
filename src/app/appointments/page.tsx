@@ -12,7 +12,10 @@ export default function Page() {
   return (
     <main className="bg-white" id="scheduling">
       <p>
-        If you have any questions or need help with scheduling, please{' '}
+        All services are priced as listed, NO gratuity necessary! 💖
+      </p>
+      <p>
+        If you have any questions or need help with scheduling, {' '}
         <Email>contact us</Email>.
       </p>
       <p>
@@ -20,7 +23,7 @@ export default function Page() {
           href="https://squareup.com/gift/15ZMSAP6R3TMB/order"
           target="_blank"
         >
-          Purchase a gift card
+           ✨ Gift cards are available here ✨
         </Link>
       </p>
       <SquareAppointments />

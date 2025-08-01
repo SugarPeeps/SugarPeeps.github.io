@@ -26,11 +26,10 @@ export default function Page() {
         <React.Fragment>
           <Image src="/images/sp-els-announcement.png" alt="Sugar Peeps and Electric Lash Studio logos together" width={1080} height={1350} className="max-w-md w-full mx-auto" />
           <div className="bg-gray-100 p-4 rounded-lg mt-12">
-            <p className="font-bold text-xl mt-4 mb-8">News fo' yous!</p>
-            <p>Sugar Peeps has moved to Ballard Ave! AND, 🍒 on top SP will be teaming up with the fantabulous Adela of <Link href="https://www.electriclashstudio.biz/">Electric Lash Studio!</Link> ⚡️</p>
-            <p>Our new digs are located in the Valhalla building smack in the schwanky heart of Ballard at 5306 Ballard Ave NW #211 💖</p>
-            <p>Sugaring, lashes, and spray tans, oh my 😍…welcome to your sassy new one stop sweet shoppe! ✨</p>
-            <p>Treat yo’self and come see us!</p>
+            <p className="font-bold text-xl mt-4 mb-8">Well 👋 You!</p>
+            <p>Guess what?! Sugar Peeps has moved to Ballard Ave NW ...AND, 🍒 on top has teamed up with the fantabulous <Link href="https://www.electriclashstudio.biz/">Electric Lash Studio</Link>. ⚡️ We're excited to announce that BOTH Sugar Peeps and Electric Lash Studio service menus are now priced as listed. NO additional gratuity is necessary, cuz looove. 😍 </p>
+            <p>Our new digs are located inside the Valhalla building smack in the schwanky heart of Ballard at 5306 Ballard Ave NW #211. The entry door with the call box is located immediately to the right of Anchored Ship Coffee. Sugaring, lashes, and spray tans, oh my! Come see us! 💖</p>
+            <p>Welcome to your sassy new one stop sweet shoppe! ✨</p>
             <ParkingMapWidget className="px-10" />
           </div>
         </React.Fragment> :
