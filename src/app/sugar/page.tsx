@@ -131,14 +131,13 @@ export default function Page() {
 
         <h2>Tell me more about sugar maintenance?</h2>
         <p>
-          Every BODY is unique, however, a typical sugaring maintenance should
-          happen every 4-6 weeks. It will vary depending on the area of the
+          Every BODY is unique, however, a typical sugaring maintenance
+          happens every 4-6 weeks. It will vary depending on the area of the
           body, hair denseness, growth cycles, etc. Ms. Peeps will go over what
           might be best for your individual needs.
         </p>
         <p>
-          BONUS: Sugar Peeps offers maintenance sugar pricing for services
-          scheduled every 6 weeks or less!
+          BONUS: Sugar Peeps offers a variety of pricing options to support regular sugar babes. 
         </p>
 
         <h2>Post sugaring care...</h2>
