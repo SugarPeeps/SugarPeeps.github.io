@@ -5,6 +5,8 @@ export const ContactAddress2 = "Inside Valhalla Building, Floor 2";
 export const ContactCity = "Seattle, WA";
 export const InstagramUrl = "https://www.instagram.com/sugarpeepssugaring";
 export const FacebookUrl = "https://www.facebook.com/sugarpeepsbygen";
+export const GlossGeniusUrl = "https://sugarpeeps.glossgenius.com";
+export const GlossGeniusSchedulingUrl = "https://sugarpeeps.glossgenius.com/services";
 
 export type NavLink = {
   label: string;
