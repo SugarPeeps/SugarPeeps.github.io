@@ -18,7 +18,7 @@ const slides: Slide[] = [
 ];
 
 export default function Page() {
-  const showAnnouncement = true;
+  const showAnnouncement = false;
 
   return (
     <main>
