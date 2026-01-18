@@ -12,7 +12,7 @@ export default function Page() {
 	return (
 		<main className="bg-white" id="scheduling">
 			<p>
-				We have a new and improved way to schedule your appointments! Use the "Book Now" button above or{" "}
+				Appointments for sugaring, luxe skin treatments, and custom airbrush spray tanning are scheduled now through Gloss Genius! Use the "Book Now" button above or{" "}
 				<Link href={GlossGeniusSchedulingUrl} target="_blank">click here</Link> to view services and schedule your next appointment.
 			</p>
 			<p>

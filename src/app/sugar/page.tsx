@@ -133,8 +133,8 @@ export default function Page() {
         <p>
           Every BODY is unique, however, a typical sugaring maintenance
           happens every 4-6 weeks. It will vary depending on the area of the
-          body, hair denseness, growth cycles, etc. Ms. Peeps will go over what
-          might be best for your individual needs.
+          body, hair denseness, growth cycles, etc. At your appointment we will discuss what
+          might be best for your individual needs and make it happen!
         </p>
         <p>
           BONUS: Sugar Peeps offers a variety of pricing options to support regular sugar babes. 
@@ -158,14 +158,13 @@ export default function Page() {
           After 48 hours… make gentle exfoliating and moisturizing a part of
           your daily/every other day routine. This is <strong>essential</strong>{" "}
           for avoiding ingrowns and keeping your skin soft and smooth. Those
-          fine-tipped new hairs need conditioned skin to grow up and through!
-          Sugar Peeps is packed with exfoliating mitts, powders, pads, serums,
-          lotions and balms galore. They are all largely organic and incredibly
-          effective. Put down the razor, don’t even bother with the chemical
-          depilatory cream, and pick up the spa mitt and lotion.
+          fine-tipped new hairs need conditioned skin to grow up and through. Adding on a luxe skin treatments post sugar is another excellent way to nourish, condition, and caretake your skin.
+          And, of course, Sugar Peeps studio is chock-full of exfoliating mitts, cleansers, serums,
+          lotions, and balms proudly formulated largely with organic ingredients and high grade botanicals. Put down the razor, don’t even bother with the chemical
+          depilatory cream, and pick up the spa mitt and sustainable, clean, eco-conscious lotion.
         </p>
         <p>
-          If you feel itchy post sugar, please let me know! Hives, small
+          If you feel itchy post sugar, please let me know. Hives, small
           histamine bumps, or itching can occur (occasionally hair removal by
           the root can create a histamine reaction similar to a small bite or
           sting). If this occurs during your appointment hydrocortisone can ease

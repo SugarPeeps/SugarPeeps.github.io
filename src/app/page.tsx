@@ -35,10 +35,9 @@ export default function Page() {
         </React.Fragment> :
         <React.Fragment>
           <Carousel slides={slides} />
-          <h2>Hello, hellooo!</h2>
-          <p>We are so glad you&apos;re here.</p>
+          <h2>Hello, hellooo! So glad you&apos;re here!</h2>
           <p>
-            Sugar Peeps is a space that welcomes and celebrates{" "}
+            You&apos;ve found Sugar Peeps... a space that welcomes and celebrates{" "}
             <strong>EVERY BODY</strong>. Genevieve believes strongly that sugaring
             and all personal services should be affirming and positive experiences.
             She strives to be a master of her chosen esthetic specialties, and
@@ -50,13 +49,14 @@ export default function Page() {
           </p>
           <p>
             Scheduling is easy! Simply click the Book Now button above and select
-            your desired sugar services. You&apos;ll be supporting a small woman
-            owned business, our local economy, AND choosing a natural hair removal
-            method that is sweet to the environment and your skin. Bonus: Dottie
-            Grace, Genevieve&apos;s gorgeous little shop pup familiar happily comes
-            to work every day as well and is always available for emotional puppy
-            support. <em>Welcome to the sweet side of self care!</em>
-          </p>
+            your desired sugar, luxe skin treatment, and/or custom airbrush spray tan services. You&apos;ll be supporting a small woman
+            owned business, our local economy, AND choosing sustainable, eco-conscious, skin friendly services that are sweet to the environment and your skin. Bonus: Dottie
+            Grace, Genevieve&apos;s gorgeous little shop pup comes
+            to work every day as well. She's a shy mamacita who will likely clickedy clack around and give you the infamous dachshund side eye from her fluffy princess bed. However, occasionally she does decide to pass out a tiny nose boop or lick to an outstretched hand. Come around often enough and she's even been known to wiggle on over and coyly request scritches. Jussayin... 
+            </p>
+            <p>
+              <em>Welcome to the sweet side of self care!</em>
+            </p>
         </React.Fragment>
       }
     </main>

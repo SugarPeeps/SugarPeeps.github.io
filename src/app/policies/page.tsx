@@ -36,7 +36,7 @@ export default function Page() {
         I appreciate YOU and your support of this little one woman business
         greatly!
       </p>
-      <p className="text-center">Warmly, Genevieve of Sugar Peep</p>
+      <p className="text-center">Warmly, Genevieve of Sugar Peeps</p>
     </main>
   );
 }
