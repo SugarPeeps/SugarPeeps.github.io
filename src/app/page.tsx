@@ -50,13 +50,14 @@ export default function Page() {
           <p>
             Scheduling is easy! Simply click the Book Now button above and select
             your desired sugar, luxe skin treatment, and/or custom airbrush spray tan services. You&apos;ll be supporting a small woman
-            owned business, our local economy, AND choosing sustainable, eco-conscious, skin friendly services that are sweet to the environment and your skin. Bonus: Dottie
-            Grace, Genevieve&apos;s gorgeous little shop pup comes
-            to work every day as well. She's a shy mamacita who will likely clickedy clack around and give you the infamous dachshund side eye from her fluffy princess bed. However, occasionally she does decide to pass out a tiny nose boop or lick to an outstretched hand. Come around often enough and she's even been known to wiggle on over and coyly request scritches. Jussayin... 
+            owned business, our local economy, AND choosing sustainable, eco-conscious, gentle services that are sweet to the environment and your skin.
             </p>
-            <p>
-              <em>Welcome to the sweet side of self care!</em>
-            </p>
+            <p>Bonus: Dottie (Genevieve&apos;s gorgeous little shop pup) comes
+            to work every day as well. She's a shy mamacita who will likely clickedy clack around and give you the infamous dachshund side eye from her fluffy princess bed. However, occasionally she does decide to pass out a tiny nose boop or lick to an outstretched hand. Come around often enough and she's even been known to wiggle on over and coyly request scritches. Jussayin...
+          </p>
+          <p>
+            <strong><em>Welcome to the sweet side of self care!</em></strong>
+          </p>
         </React.Fragment>
       }
     </main>
