@@ -158,19 +158,19 @@ export default function Page() {
           After 48 hours… make gentle exfoliating and moisturizing a part of
           your daily/every other day routine. This is <strong>essential</strong>{" "}
           for avoiding ingrowns and keeping your skin soft and smooth. Those
-          fine-tipped new hairs need conditioned skin to grow up and through. Adding on a luxe skin treatments post sugar is another excellent way to nourish, condition, and caretake your skin.
-          And, of course, Sugar Peeps studio is chock-full of exfoliating mitts, cleansers, serums,
-          lotions, and balms proudly formulated largely with organic ingredients and high grade botanicals. Put down the razor, don’t even bother with the chemical
-          depilatory cream, and pick up the spa mitt and sustainable, clean, eco-conscious lotion.
+          fine-tipped new hairs need conditioned skin to grow up and through. Adding on a luxe skin treatment post sugar is another excellent way to nourish, condition, and caretake your skin.
+          Sugar Peeps studio also carries a quality selection of exfoliating mitts, cleansers, serums,
+          lotions, and balms proudly formulated with organic ingredients and high grade botanicals to help you along your post sugar journey.
         </p>
         <p>
-          If you feel itchy post sugar, please let me know. Hives, small
-          histamine bumps, or itching can occur (occasionally hair removal by
-          the root can create a histamine reaction similar to a small bite or
-          sting). If this occurs during your appointment hydrocortisone can ease
-          the sensation. At home an antihistamine such as Benadryl can be taken.
-          OR, treat yo’self! Take a nice Epsom salt or oatmeal bath. It can help
-          soothe the area and give you a bit of zen.
+          Occasionally hives, small histamine bumps, or mild itching can occur due to hair removal by
+          the root creating a histamine reaction where the body's response is similar to that of a small bug bite or
+          sting. If this happens during your appointment hydrocortisone cream can ease
+          the sensation and will be available upon request. Some people also find antihistamines such as Benadryl to be helpful.
+          A warm Epsom salt soak or compress can also be a nice way to soothe the area and inspire a little zen to boot.
+        </p>
+        <p>
+          Of course, if you have any questions always feel free to email or text. Hurray for sugar!
         </p>
       </div>
     </main>
